@@ -16,3 +16,13 @@
 // nombre = 'Kare';
 // let nombre = 'juan'; // esto es error de sintaxis
 // console.log(nombre);
+
+/*Const no puede ser renombrada despues ni rescribirlo. Usar 
+ COnst es recomendable cuando se le asigna a un elemento de HTML 
+ nunca cambian y se sabe cuales son porque son parte del html*/
+const cliente = 'Sergio';
+cliente = 'Pedro';
+
+console.log(cliente);
+
+const divMensaje = document.getElementById('mensaje');
